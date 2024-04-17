@@ -60,45 +60,45 @@ async function olah(formData: FormData) {
 // const session_id = "67d99738f7855bf0bc05ee8f153f29e1"
 let session_id: string;
 export default async function Home() {
-  let data_session_id = await prisma.sessionId.findFirst()
-  let mp3_file = path.join(root_path, "assets", "mp3", "output", "output.mp3")
-  if (!data_session_id) session_id = '67d99738f7855bf0bc05ee8f153f29e1'
-  config(session_id)
+  // let data_session_id = await prisma.sessionId.findFirst()
+  // let mp3_file = path.join(root_path, "assets", "mp3", "output", "output.mp3")
+  // if (!data_session_id) session_id = '67d99738f7855bf0bc05ee8f153f29e1'
+  // config(session_id)
 
-  const fl = await fs.promises.readFile(mp3_file)
+  // const fl = await fs.promises.readFile(mp3_file)
   // const gToken =  getConfig()
 
-
-  return (
-    <main>
-      {/* {mp3_file} */}
-      <audio controls>
-        <source src={`data:audio/mpeg;base64,${fl.toString("base64")}`} type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
-      <MyNotif />
-      <Container>
-        <Stack gap={12}>
-          <Title>Tts</Title>
-          <form style={{
-            display: "flex",
-            gap: 12
-          }}>
-            <TextInput defaultValue={session_id} />
-            <Button>Save</Button>
-          </form>
-          <form action={olah} style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: 12
-          }}>
-            <Textarea name="text" rows={20} mih={300} />
-            <Group justify="end">
-              <Button variant="outline" type="submit">Tekan </Button>
-            </Group>
-          </form>
-        </Stack>
-      </Container>
-    </main>
-  );
+  return null
+  // return (
+  //   <main>
+  //     {/* {mp3_file} */}
+  //     <audio controls>
+  //       <source src={`data:audio/mpeg;base64,${fl.toString("base64")}`} type="audio/mpeg" />
+  //       Your browser does not support the audio element.
+  //     </audio>
+  //     <MyNotif />
+  //     <Container>
+  //       <Stack gap={12}>
+  //         <Title>Tts</Title>
+  //         <form style={{
+  //           display: "flex",
+  //           gap: 12
+  //         }}>
+  //           <TextInput defaultValue={session_id} />
+  //           <Button>Save</Button>
+  //         </form>
+  //         <form action={olah} style={{
+  //           display: "flex",
+  //           flexDirection: "column",
+  //           gap: 12
+  //         }}>
+  //           <Textarea name="text" rows={20} mih={300} />
+  //           <Group justify="end">
+  //             <Button variant="outline" type="submit">Tekan </Button>
+  //           </Group>
+  //         </form>
+  //       </Stack>
+  //     </Container>
+  //   </main>
+  // );
 }

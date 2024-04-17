@@ -23,8 +23,8 @@ async function _login(data: LOGIN) {
 
     const d = await k.json()
 
-    if (k.status === 200) {
-        window.localStorage.setItem("token", d.token)
+    if (d.success) {
+        // window.localStorage.setItem("token", d.token)
         return window.location.href = "/reader"
     }
 

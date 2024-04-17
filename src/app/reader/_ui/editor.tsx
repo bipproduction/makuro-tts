@@ -5,24 +5,24 @@ import toast from "react-simple-toasts"
 import _ from "lodash"
 import { MdPause, MdPlayArrow } from "react-icons/md"
 
-export default function ReaderEditor() {
+export default function ReaderEditor({ token }: { token: string }) {
     const [text, setText] = useState("")
     const [loading, setLoading] = useState(false)
-    const [token, setToken] = useState("")
+    // const [token, setToken] = useState("")
     const audio = useRef<HTMLAudioElement | null>(null);
     const [isPaause, setIsPause] = useState(false)
     const [runText, setRunText] = useState("")
 
-    useEffect(() => {
-        setToken(localStorage.getItem("token") || "")
+    // useEffect(() => {
+    //     setToken(localStorage.getItem("token") || "")
 
-    }, [])
+    // }, [])
 
 
     async function kirim() {
         setLoading(true)
         if (text === "") return toast("text cannot be empty")
-        const k = await fetch('/reader/mp3/generate', {
+        const k = await fetch('/api/mp3/generate', {
             method: 'POST',
             body: JSON.stringify({ text, token }),
             headers: {
@@ -53,7 +53,7 @@ export default function ReaderEditor() {
 
                     if (audio.current?.paused) {
                         // Play case: resume from pausedTime
-                        audio.current?.setAttribute('src', `/reader/mp3/load?token=${token}&id=${_.random(10000, 99999)}`)
+                        audio.current?.setAttribute('src', `/api/mp3/load/${token}&id=${_.random(10000, 99999)}`)
                         audio.current.currentTime = pausedTime;
                         audio.current.play();
                     } else {
@@ -69,11 +69,11 @@ export default function ReaderEditor() {
                     play
                 </Button>
                 {/* <Button variant="outline" color="red" onClick={() => audio.current?.pause()}>stop</Button> */}
-                <a href={`/reader/mp3/load?token=${token}&id=${_.random(10000, 99999)}`} download="audio.mp3">
+                <a href={`/api/mp3/load/${token}&id=${_.random(10000, 99999)}`} download="audio.mp3">
                     <Button>Download</Button>
                 </a>
             </Group>
-            <audio ref={audio as any} src={`/reader/mp3/load?token=${token}`}>
+            <audio ref={audio as any} src={`/api/mp3/load/${token}`}>
             </audio>
             <div id="audio_bulk"></div>
 
@@ -82,10 +82,10 @@ export default function ReaderEditor() {
                     <Textarea cols={40} rows={20} defaultValue={text} onChange={onTextChange} />
                     <Group justify="end">
                         <Button loading={loading} onClick={kirim}>PROCCESS</Button>
-                        <Button variant="outline" onClick={async () => {
+                        {/* <Button variant="outline" onClick={async () => {
                             const step = JSON.parse(localStorage.getItem("step") || "[]")
 
-                            
+
                             for (let i = 0; i < step.length; i++) {
                                 setRunText(step[i].text)
                                 // audio.current?.setAttribute('src', `/reader/mp3/step/audio${i}.mp3&id=${_.random(10000, 99999)}&token=${token}`)
@@ -105,7 +105,7 @@ export default function ReaderEditor() {
                             //     .then(res => {
                             //         console.log(res)
                             //     })
-                        }}>STEP</Button>
+                        }}>STEP</Button> */}
                     </Group>
                 </Stack>
                 <Stack w={300} p={12}>

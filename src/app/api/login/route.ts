@@ -1,27 +1,17 @@
+import login from "@/app/_lib/auth/login"
 import prisma from "@/util/prisma"
 import { AES } from 'crypto-js'
+import { cookies } from "next/headers"
 
 interface BODY_LOGIN {
     email: string
     password: string
 }
 export async function POST(req: Request) {
+    const body: BODY_LOGIN = await req.json()
+    const lgn = await login({ body })
 
-    try {
-        const body: BODY_LOGIN = await req.json()
+    if (!lgn.success) return Response.json(lgn, { status: 400 })
 
-        const avaialbe = await prisma.user.findUnique({
-            where: {
-                email: body.email
-            }
-        })
-
-        if (!avaialbe || avaialbe.password !== body.password) return new Response(JSON.stringify({ message: 'wrong email or password' }), { status: 400 })
-
-        const token = AES.encrypt(body.email, 'makuro').toString()
-
-        return new Response(JSON.stringify({ message: 'success', token }))
-    } catch (error) {
-        return new Response(JSON.stringify({ message: 'failed!, wrong email or password' }), { status: 400 })
-    }
+    return Response.json(lgn, { status: 200 })
 }

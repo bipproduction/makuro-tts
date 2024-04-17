@@ -1,0 +1,140 @@
+
+Menu utama
+
+WikipediaEnsiklopedia Bebas
+Telusuri Wikipedia
+Cari
+Buat akun baru
+Masuk log
+
+Perkakas pribadi
+Ikuti Wikipedia bahasa Indonesia di  Facebook,  X,  Instagram, dan  Telegram
+Tutup
+Daftar isi sembunyikan
+Awal
+Klasifikasi
+Gulingkan subbagian Klasifikasi
+Berdasarkan statistik
+Berdasarkan komposisi
+Berdasarkan massa
+Lihat pula
+Referensi
+Bacaan lanjutan
+Partikel subatom
+
+Halaman
+Pembicaraan
+Baca
+Sunting
+Sunting sumber
+Lihat riwayat
+
+Perkakas
+Dari Wikipedia bahasa Indonesia, ensiklopedia bebas
+(Dialihkan dari Partikel subatomik)
+Partikel subatom atau zarah subatom dalam ilmu fisika adalah partikel yang jauh lebih kecil dari atom.[1] Ada dua jenis partikel subatom, yaitu partikel dasar, yang berdasarkan teori saat ini, adalah partikel yang tidak terdiri atas partikel lain dan partikel komposit.[2] Fisika partikel dan fisika nuklir mempelajari partikel-partikel ini dan cara mereka berinteraksi.[3]
+
+Dalam fisika partikel, konsep dari sebuah partikel adalah salah satu dari beberapa konsep yang diturunkan dari fisika klasik. Tapi, konsep itu juga mencerminkan pemahaman modern bahwa pada skala kuantum, materi dan energi berperilaku sangat berbeda dari yang dipikirkan.
+
+Pemikiran mengenai partikel kembali menjadi hal yang serius ketika percobaan menunjukkan bahwa cahaya dapat berperilaku seperti aliran partikel (yang disebut foton) dan memperlihatkan besaran seperti gelombang. Ini mengarah pada konsep baru dualitas gelombang–partikel untuk merefleksikan bahwa "partikel-partikel" skala kuantum berperilaku baik partikel maupun gelombang (juga dikenal sebagai gelora). Konsep baru lain, yaitu prinsip ketidakpastian, menyatakan bahwa tidak dapat diukur secara tepat beberapa besaran secara bersamaan, misalnya posisi dan momentum partikel.[4] Yang lebih baru lagi, dualitas gelombang–partikel telah terbukti berlaku tidak hanya untuk foton, tetapi juga untuk partikel yang semakin besar.[5]
+
+Interaksi partikel dalam kerangka teori medan kuantum dipahami sebagai penciptaan dan penghancuran kuantum dari interaksi dasar yang berkaitan. Ini memadukan fisika partikel dengan teori medan kuantum.
+
+Klasifikasi
+Berdasarkan statistik
+
+Model Standar klasifikasi partikel
+Setiap partikel subatom, seperti setiap partikel dalam ruang 3 dimensi yang memenuhi hukum mekanika kuantum, dapat berupa sebuah boson (sebuah spin integer) atau fermion (spin setengah integer).
+
+Berdasarkan komposisi
+Partikel dasar Model Standar meliputi:[6]
+
+Enam "citarasa" dari kuark: atas, bawah, dasar, puncak, asing, dan berpesona (u, d, b, t, s, c);
+Enam jenis lepton: elektron, elektron neutrino, muon, neutrino muon, tau, neutrino tau (e, Ve, μ, Vμ, τ, Vτ);
+Dua belas boson tolok (pembawa gaya): foton dari elektromagnetisme, tiga boson W dan Z dari gaya lemah, dan delapan gluon dari gaya kuat (‌‌ؼ, W, Z, g, H);
+Boson Higgs.
+Berbagai perluasan Model Standar memprediksi keberadaan sebuah partikel graviton dasar dan banyak partikel dasar lainnya.
+
+Partikel subatom komposit (seperti proton atau nukleus atom) adalah dua atau lebih partikel dasar dalam keadaan terikat. Sebagai contoh, sebuah proton terdiri atas dua kuark atas dan satu kuark bawah, sementara nukleus atom helium-4 terdiri atas dua proton dan dua neutron. Neutron terdiri atas dua kuark bawah dan satu kuark atas. Partikel komposit mencakup semua hadron, termasuk barion (seperti proton dan neutron) dan meson (seperti pion dan kaon).
+
+Berdasarkan massa
+Dalam relativitas khusus, energi dari sebuah partikel pada keadaan diam sama dengan massanya dikali kuadrat kecepatan cahaya. Artinya, massa dapat diekspresikan dalam istilah energi dan sebaliknya. Jika sebuah partikel memiliki kerangka acuan tempat partikel itu berada pada keadaan diam, maka partikel itu memiliki massa diam positif dan disebut sebagai masif.
+
+Semua partikel komposit masif. Barion (yang berarti "berat") cenderung memiliki massa yang lebih besar daripada meson (yang berarti "menengah"), yang pada gilirannya cenderung lebih berat daripada lepton (yang berarti "ringan"), tetapi lepton terberat (partikel tau) lebih berat daripada dua cita rasa barion paling ringan (nukleon). Diyakini juga bahwa setiap partikel dengan muatan listrik bersifat masif.
+
+Semua partikel tak bermassa (partikel massa diamnya nol) adalah partikel dasar, termasuk foton dan gluon, meskipun yang terakhir tidak dapat terisolasi.
+
+Lihat pula
+Materi gelap
+Daftar partikel
+Referensi
+ "Subatomic particles" (dalam bahasa bahasa Inggris). NTD. Diarsipkan dari versi asli tanggal 2014-02-16. Diakses tanggal 27-06-2016.
+ Bolonkin, Alexander (2011). Universe, Human Immortality and Future Human Evaluation. Elsevier. hlm. 25. ISBN 9780124158016.
+ Fritzsch, Harald (2005). Elementary Particles. World Scientific. hlm. 11–20. ISBN 978-981-256-141-1.
+ Heisenberg, W. (1927), "Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik", Zeitschrift für Physik (dalam bahasa Jerman), 43 (3–4): 172–198, Bibcode:1927ZPhy...43..172H, doi:10.1007/BF01397280.
+ Arndt, Markus; Nairz, Olaf; Vos-Andreae, Julian; Keller, Claudia; Van Der Zouw, Gerbrand; Zeilinger, Anton (2000). "Wave-particle duality of C60 molecules". Nature. 401 (6754): 680–682. Bibcode:1999Natur.401..680A. doi:10.1038/44348. PMID 18494170.
+ Cottingham, W. N.; Greenwood, D. A. (2007). An introduction to the standard model of particle physics. Cambridge University Press. hlm. 1. ISBN 978-0-521-85249-4.
+Bacaan lanjutan
+Umum
+Feynman, R.P. & Weinberg, S. (1987). Elementary Particles and the Laws of Physics: The 1986 Dirac Memorial Lectures. Cambridge Univ. Press.
+Brian Greene (1999). The Elegant Universe. W.W. Norton & Company. ISBN 0-393-05858-1.
+Oerter, Robert (2006). The Theory of Almost Everything: The Standard Model, the Unsung Triumph of Modern Physics. Plume.
+Schumm, Bruce A. (2004). Deep Down Things: The Breathtaking Beauty of Particle Physics. Johns Hopkins University Press. ISBN 0-8018-7971-X.
+Martinus Veltman (2003). Facts and Mysteries in Elementary Particle Physics. World Scientific. ISBN 981-238-149-X.
+Buku teks
+Coughlan, G. D., J. E. Dodd, and B. M. Gripaios (2006). The Ideas of Particle Physics: An Introduction for Scientists, 3rd ed. Cambridge Univ. Press. An undergraduate text for those not majoring in physics.
+Griffiths, David J. (1987). Introduction to Elementary Particles. Wiley, John & Sons, Inc. ISBN 0-471-60386-4.
+Kane, Gordon L. (1987). Modern Elementary Particle Physics. Perseus Books. ISBN 0-201-11749-5.
+lbs
+Fisika partikel
+Dasar	
+Fermion	
+Kuark	
+Up (u) · Down (d) · Pesona (c) · Asing (s) · Top (t) · Bottom (b)
+Lepton	
+Elektron (e−) · Positron (e+) · Muon (μ−) · Antimuon (μ+) · Tau (τ−) · Antitau (τ+) · Neutrino elektron (νe) · Antineutrino elektron (νe) · Neutrino muon (νμ) · Antineutrino muon (νμ) · Neutrino tau (ντ) · Antineutrino tau (ντ)
+Boson	
+Gauge	
+Foton (γ) · Gluon (g) · Boson W (W±) · Boson Z (Z)
+Skalar	
+Boson Higgs (H0)
+Medan hantu	
+Hantu
+Hipotetis	
+Superpartner	
+Gaugino	
+Gluino · Gravitino
+Lainnya	
+Aksino · Chargino · Higgsino · Neutralino  · Sfermion
+Lainnya	
+Aksion (A0) · Dilaton · Graviton (G) · Majoron (J) · Tachyon · Boson X (X) · Boson Y (Y) · Boson W' · Boson Z' · Neutrino steril
+Komposit	
+Hadron	
+Barion / Hiperon	
+Nukleon (N) (Proton (p) · Neutron (n)) · Barion delta (Δ) · Barion lambda (Λ) · Barion sigma (Σ) · Barion Xi (Ξ) · Barion omega (Ω)
+Meson / Kuarkonia	
+Pion (π) · Meson rho (ρ) · Meson eta (η) · Meson eta prime (η′) · Meson phi (φ) · Meson omega (ω) · Meson J/Psi (J/ψ) · Meson upsilon (ϒ) · Meson theta (θ) · Kaon (K) · Meson B (B) · Meson D (D) · Meson T (T)
+Lainnya	
+Inti atom · Atom · Atom eksotis (Positronium · Muonium · Onia) · Superatom · Molekul
+Bayangan	
+Hadron eksotik	
+Barion eksotik	
+Dibarion · Pentakuark
+Meson eksotik	
+Glueball · Tetrakuark
+Lainnya	
+Molekul meson · Pomeron
+Kuasipartikel	
+Soliton Davydov · Eksiton · Magnon · Fonon · Plasmaron · Plasmon · Polariton · Polaron · Roton
+Daftar	
+Daftar partikel · Daftar kuasipartikel · Daftar barion · Daftar meson · Garis waktu penemuan partikel
+Topik terkait	
+Sejarah fisika subatom (garis waktu) · Model Standar (perumusan matematis) · Partikel subatom · Partikel · Antipartikel · Fisika nuklir · Cara lipat-delapan (Model kuark) · Materi eksotis · Partikel tak bermassa · Partikel relativistik · Partikel virtual · Dualitas gelombang-partikel
+Buku Wikipedia	
+Materi Hadron · Partikel Model Standar · Lepton · Quark
+Portal Portal fisika
+Kategori: Partikel subatomMekanika kuantumFisika nuklirFisika partikel
+Halaman ini terakhir diubah pada 10 Maret 2024, pukul 03.37.
+Teks tersedia di bawah Lisensi Atribusi-BerbagiSerupa Creative Commons; ketentuan tambahan mungkin berlaku. Lihat Ketentuan Penggunaan untuk rincian lebih lanjut.
+Kebijakan privasiTentang WikipediaPenyangkalanKode EtikPengembangStatistikPernyataan kukiTampilan selulerWikimedia FoundationPowered by MediaWiki
+Gulingkan lebar konten terbatas

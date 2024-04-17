@@ -12,13 +12,44 @@ datasource db {
 }
 
 model User {
+  id         Int          @id @default(autoincrement())
+  email      String       @unique
+  name       String
+  password   String
+  isActive   Boolean      @default(true)
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+  UserRole   UserRole?
+  TmpContent TmpContent[]
+  LogAuth    LogAuth[]
+}
+
+model UserRole {
   id        Int      @id @default(autoincrement())
-  email     String   @unique
   name      String
-  password  String
-  isActive  Boolean  @default(true)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+  users     User     @relation(fields: [userId], references: [id])
+  userId    Int      @unique
+}
+
+model TmpContent {
+  id        Int      @id @default(1)
+  content   Json?
+  user      User?    @relation(fields: [userId], references: [id])
+  userId    Int?     @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model LogAuth {
+  id        Int       @id @default(autoincrement())
+  user      User      @relation(fields: [userId], references: [id])
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  userId    Int
+  expiresAt DateTime?
+  token     String    @unique
 }
 
 model SessionId {
