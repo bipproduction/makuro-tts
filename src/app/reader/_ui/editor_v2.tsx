@@ -61,32 +61,32 @@ export default function ReaderEditorV2({ token }: { token: string }) {
         let idx = +(localStorage.getItem("idx") || "0");
         console.log(idx, listAudio.length);
         setIsPlay(true);
-    
+
         try {
             const audio = new Audio(`/api/mp3/load/${listAudio[idx].name}/${token}`);
             const playNext = () => {
                 idx++;
                 localStorage.setItem("idx", idx.toString());
-                play();
+                return play();
             };
-    
+
             if (idx < listAudio.length && audio.paused) {
                 setCurrentText(listAudio[idx].text);
                 audio.play();
                 audio.addEventListener('ended', playNext);
             }
-    
+
             const onPause = () => {
                 setIsPlay(false);
                 audio.pause();
             };
-    
+
             const onStop = () => {
                 setIsPlay(false);
                 audio.pause();
                 localStorage.setItem("idx", "0");
             };
-    
+
             e.on("pause", onPause);
             e.on("stop", onStop);
         } catch (error) {
@@ -95,8 +95,29 @@ export default function ReaderEditorV2({ token }: { token: string }) {
             console.error(error);
         }
     }
-    
 
+    let keberapa = 0;
+    async function loadSingle() {
+
+        const list_text = text.split(".").map((d: any) => d.trim())
+        console.log("keberapa: ", keberapa, "text: ", list_text[keberapa])
+        if (keberapa < list_text.length) {
+            await fetch('/api/mp3/single', {
+                method: 'POST',
+                body: JSON.stringify({ text: list_text[keberapa], token }),
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${token}`
+                }
+            }).then(res => res.json())
+            const au = new Audio(`/api/mp3/load-single/${token}`)
+            au.play()
+            au.addEventListener('ended', async () => {
+                keberapa++;
+                return await loadSingle()
+            })
+        }
+    }
 
     return <Stack gap={12} p={12}>
         {listAudio.length}
@@ -115,5 +136,13 @@ export default function ReaderEditorV2({ token }: { token: string }) {
             <Button loading={loading} onClick={generate}>GENERATE</Button>
         </Group>
         <Text p={12} bg={"black"} c={"blue"} size="lg">{currentText}</Text>
+        <Stack>
+            <Title>Test Single</Title>
+            <Button onClick={async () => {
+
+                loadSingle()
+
+            }}>TEST</Button>
+        </Stack>
     </Stack>
 }

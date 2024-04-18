@@ -25,3 +25,31 @@ POST /api/login
     password: string
 }
 ```
+
+### GENERATE
+POST /api/mp3/generate
+
+auth: token
+
+body  
+```json
+{
+    "text": "text pengucapan"
+}
+```
+
+response:  
+```json
+[
+    {
+        "name": "audio01.mp3",
+        "text": "text from split"
+    }
+]
+```
+
+### LOAD MP#
+
+GET /api/mp3/load/[name]/[token]
+
+
